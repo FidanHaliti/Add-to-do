@@ -1,0 +1,73 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background: rgb(91, 199, 249);
+}
+
+
+.container{
+   margin-top:100px;
+   width: 100%;
+   text-align: center;
+   
+   
+}
+
+.title{
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+   
+}
+#inputText{
+    background-color: aliceblue;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+
+#AddToDo{
+    background-color: aliceblue;
+    font-size: 20px;   
+    padding: 0px 5px; 
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#ClearToDo{
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;   
+    padding: 0px 5px; 
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+#ClearToDo:active{
+    background-color: rgb(255, 240, 240);
+}
+
+#AddToDo:active{
+    background-color: black;
+}
+
+.to_dos{
+margin-top: 50px;
+color: aliceblue;
+font-size: 30px;
+text-align: center;
+}
+
+.paragrafi{
+    font-size: 30px;
+    color: aliceblue;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
