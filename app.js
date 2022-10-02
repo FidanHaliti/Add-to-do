@@ -18,6 +18,6 @@ Shto.addEventListener("click", function () {
     Kontinieri.removeChild(paragraf);
   });
   Fshije.addEventListener("click", function () {
-Kontinieri.removeChild(paragraf); 
-  })
+    Kontinieri.removeChild(paragraf);
+  });
 });
