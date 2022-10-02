@@ -1,46 +1,23 @@
-const Text = document.getElementById("inputText");
-const addToButton = document.getElementById("AddToDo");
-let ClearToDo = document.getElementById("ClearToDo");
-let ToDos = document.getElementById("toDoContainer");
+let Teksti = document.getElementById("inputText");
+let Shto = document.getElementById("AddToDo");
+let Fshije = document.getElementById("ClearToDo");
+let Kontinieri = document.getElementById("toDoContainer");
 
-addToButton.addEventListener("click", function() {
-let paragraph = document.createElement("p");
-paragraph.classList.add("paragrafi")
-ToDos.appendChild(paragraph);
-paragraph.innerHTML = Text.value;
-Text.value = "";
+Shto.addEventListener("click", function () {
+  let paragraf = document.createElement("p");
+  paragraf.classList.add("paragrafi");
+  Kontinieri.appendChild(paragraf);
+  paragraf.innerHTML = Teksti.value;
+  Teksti.value = "";
 
+  paragraf.addEventListener("click", function () {
+    paragraf.style.textDecoration = "line-through";
+  });
 
-paragraph.addEventListener("click", function() {
-    paragraph.style.textDecoration = "line-through";
-
-    })
-
-
-    paragraph.addEventListener("dblclick", function() {
-        ToDos.removeChild(paragraph);
-        })
-
-        ClearToDo.addEventListener("click", function() {    
-        ToDos.removeChild(paragraph)
-
-        })
-
-})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  paragraf.addEventListener("dblclick", function () {
+    Kontinieri.removeChild(paragraf);
+  });
+  Fshije.addEventListener("click", function () {
+Kontinieri.removeChild(paragraf); 
+  })
+});
