@@ -3,7 +3,9 @@
    padding: 0;
    box-sizing: border-box;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-background: rgb(91, 199, 249);
+  background-color: black;
+   
+
 }
 
 
@@ -13,7 +15,10 @@ background: rgb(91, 199, 249);
    text-align: center;
    
    
+   
 }
+   
+
 
 .title{
     font-size: 50px;
@@ -46,15 +51,17 @@ background: rgb(91, 199, 249);
     padding: 0px 5px; 
     text-align: center;
     border-radius: 5px;
-    border: none;
+    border-color: aliceblue;
     cursor: pointer;
 }
 #ClearToDo:active{
     background-color: rgb(255, 240, 240);
+    color: black;
 }
 
 #AddToDo:active{
     background-color: black;
+    color: aliceblue;
 }
 
 .to_dos{
